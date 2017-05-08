@@ -1,0 +1,19 @@
+{
+  "name": "mocha_unit_tests",
+  "version": "1.0.0",
+  "description": "practice mocha unit tests",
+  "main": "textUtilities.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "should": "^11.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Tk Murray",
+  "license": "ISC"
+}

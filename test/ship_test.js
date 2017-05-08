@@ -76,7 +76,8 @@ describe('damageShip', function() {
     var fire = require('../game_logic/ship_methods').fire;
     var player; 
 
-    before(function () {
+//sets up the object to reset each time
+    beforeEach(function () {
       player = {
         ships: [
                       { locations: [[0, 0]], 

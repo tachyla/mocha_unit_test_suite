@@ -17,7 +17,7 @@ describe('checkForShip', function () {
     }; 
   });
 
-//SPEC: that tests no ship present at given coordinate
+//SPEC: that tests no ship present at given coordinates
   it('should correctly report no ship at a given players coordinate', function () {
 
     checkForShip(player, [9, 9]).should.be.false;

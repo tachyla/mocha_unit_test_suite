@@ -86,6 +86,14 @@ describe('damageShip', function() {
       };
     });
 
+    after(function() {
+        console.log('Entire Test Suite Completed');
+    });
+
+    afterEach(function() {
+        console.log('One Unit Test completed');
+    })
+
       //SPEC: that tests for damage on a players ship at a given coordinate
       it('should record damage on the given players ship at a given coordinate', function() {    
 
